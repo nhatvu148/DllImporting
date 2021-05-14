@@ -2,6 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Linq;
 using Microsoft.Windows.Sdk;
+using Calculation;
 
 namespace CsApp
 {
@@ -50,8 +51,13 @@ namespace CsApp
             ms.a = input1;
             ms.b = input2;
 
-            int sum = AddStruct(ms);
-            int diff = SubtractStruct(ms);
+            //int sum = AddStruct(ms);
+            //int diff = SubtractStruct(ms);
+
+            var cal = new Calculate();
+
+            int sum = cal.Add(input1, input2);
+            int diff = cal.Subtract(input1, input2);
 
             Console.WriteLine($"Sum is: {sum}");
             Console.WriteLine($"Difference is: {diff}");

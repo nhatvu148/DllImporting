@@ -12,4 +12,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Calculation">
+      <HintPath>..\Calculation\bin\Debug\net5.0\Calculation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
