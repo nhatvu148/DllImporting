@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <Reference Include="Calculation">
-      <HintPath>..\Calculation\bin\Debug\net5.0\Calculation.dll</HintPath>
+      <HintPath>Calculation.dll</HintPath>
     </Reference>
   </ItemGroup>
 
