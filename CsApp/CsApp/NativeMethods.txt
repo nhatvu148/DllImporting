@@ -1,0 +1,3 @@
+﻿FindFirstFile
+FindNextFile
+FindClose
